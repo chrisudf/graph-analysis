@@ -11,7 +11,7 @@ starttime = datetime.datetime.now()
 
 G=nx.Graph()
 path="C:/Users/Qiu/Desktop/project1/INFS7450-Project_One/data.txt"
-task = open('C:/Users/Qiu/Desktop/' + '44965206' + '.txt','w')
+task = open('C:/Users/Qiu/Desktop/' + 'result' + '.txt','w')
 dataset=np.loadtxt(path)
 id =dataset[:,0]
 connection=dataset[:,1]
